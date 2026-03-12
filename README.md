@@ -29,3 +29,14 @@ This Tutorial has been presented by The App Guruz - One of the best <a href="htt
 
 ## Completion Status
 - Prototype: single-activity sample for adapter/discovery/paired-device listing only, with minimal UI and no connection workflow.
+
+## Program Summary
+- Android sample app that displays local Bluetooth adapter info, starts discovery, and lists bonded (paired) devices in a single TextView.
+- Prompts the user to enable Bluetooth via the system dialog if it is disabled.
+
+## How to Use
+- Not verified. Likely open in Android Studio, build, and run on a physical Android device with Bluetooth available.
+- On launch, accept the Bluetooth enable prompt if shown; the main screen prints adapter and paired-device details.
+
+## Completion Status
+- Prototype: single-activity demo focused on adapter/discovery/paired-device listing with minimal UI and no connection or data-transfer flow.
